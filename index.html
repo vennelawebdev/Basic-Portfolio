@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Vennela</h1>
+            <p>Web Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with experience in building responsive websites using HTML, CSS, and JavaScript.<br>
+                This is one of the basic portfolio website 
+            </p>
+        </div>
+    </section>
+
+    <section id="work" class="section">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="work-item">
+                <img src="https://img.freepik.com/free-vector/flat-design-colored-portfolio-template_23-2149215470.jpg" alt="Work 1">
+                <h3>Basic Portfolio</h3>
+                <p>This is my basic and first portfolio website. I created this website using slash mark .</p>
+            </div>
+            <div class="work-item">
+                <img src="https://uploads.sitepoint.com/wp-content/uploads/2019/04/155530806117.jpg" alt="Work 2"><br><br>
+                <h3>Basic Portfolio with desinger</h3>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
